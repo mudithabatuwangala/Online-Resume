@@ -22,8 +22,8 @@ const App = () => {
   }, []);
 
   return (
-    <div>
-      <div>
+    <div className="bg-space h-screen">
+      <div className="bg-background max-w-7xl mx-auto">
         <h1>Online Resume</h1>
       </div>
     </div>
