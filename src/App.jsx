@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import "./themes.css";
+import Page1 from "./pages/Page1";
+import Page2 from "./pages/Page2";
 
 const App = () => {
   useEffect(() => {
@@ -22,10 +24,9 @@ const App = () => {
   }, []);
 
   return (
-    <div className="bg-space h-screen">
-      <div className="bg-background max-w-7xl mx-auto">
-        <h1>Online Resume</h1>
-      </div>
+    <div className="bg-space h-screen py-12 flex flex-col gap-y-5">
+      <Page1 />
+      <Page2 />
     </div>
   );
 };
